@@ -1,0 +1,37 @@
+[
+  {
+    "id": "5888f175-9d72-48bd-9c76-431ebe39e798",
+    "title": "Buy groceries",
+    "description": "Milk, eggs, bread",
+    "status": "pending",
+    "dueDate": "2025-07-10"
+  },
+  {
+    "id": "5888j475-9d72-48bd-9c73-431ebe39e787",
+    "title": "Buy tech",
+    "description": "Mouse, keyboard, moniter",
+    "status": "pending",
+    "dueDate": "2025-08-16"
+  },
+  {
+    "id": "5888j475-9d72-48bd-9c93-431geg39e787",
+    "title": "Build demo site",
+    "description": "Plan, code, deploy",
+    "status": "completed",
+    "dueDate": "2025-06-26"
+  },
+  {
+    "id": "9364fba6-d871-4a84-8e06-f7d162f9f993",
+    "title": "Run marathon updated",
+    "description": "Register, participate, win",
+    "status": "pending",
+    "dueDate": "2025-06-26"
+  },
+  {
+    "id": "5602dea0-4d1d-4a18-b5a9-8747275bf808",
+    "title": "Run marathon",
+    "description": "Register, participate, win",
+    "status": "completed",
+    "dueDate": "2025-06-29"
+  }
+]
