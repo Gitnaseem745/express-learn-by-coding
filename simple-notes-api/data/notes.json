@@ -1,0 +1,27 @@
+[
+  {
+    "id": "5578f175-9d72-48bd-9c76-431ebe39e779",
+    "title": "Grocery List",
+    "content": "Milk, Eggs, Bread"
+  },
+  {
+    "id": "2da54ceb-f771-4a8e-ab85-b8840ede47e9",
+    "title": "Book to Read",
+    "content": "Clean Code’ by Robert C. Martin"
+  },
+  {
+    "id": "f5246e2c-6cb0-4841-a084-c5ea73843116",
+    "title": "Languages",
+    "content": "Learn basic Japanese"
+  },
+  {
+    "id": "651f3a09-a5c6-49d7-bc7f-cdcc0f484f4f",
+    "title": "Movies",
+    "content": "Watch Inception this weekend"
+  },
+  {
+    "id": "612d3522-1e38-4367-b0b0-49b856d7c56a",
+    "title": "Birthday Gift",
+    "content": "Get her favorite perfume"
+  }
+]
