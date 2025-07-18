@@ -6,12 +6,19 @@ const router = express.Router();
 
 // GET all tasks (with optional status filter)
 router.get('/', (req, res) => {
-    const tasks = readTasks();
-    const { status } = req.query;
+    let tasks = readTasks();
+    const { status, from, to } = req.query;
 
     if (status) {
-        const filtered = tasks.filter(t => t.status.toLowerCase() === status.toLowerCase());
-        return res.json(filtered);
+        tasks = tasks.filter(t => t.status.toLowerCase() === status.toLowerCase());
+    }
+
+    if (from) {
+        tasks = tasks.filter(t => new Date(t.dueDate) >= new Date(from));
+    }
+
+    if (to) {
+        tasks = tasks.filter(t => new Date(t.dueDate) <= new Date(to));
     }
 
     res.json(tasks);
